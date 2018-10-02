@@ -1,0 +1,91 @@
+/*body{
+	color: darkblue;
+	font-size: 25px;
+}*/
+
+*{
+	margin: 10;
+	padding: 20;
+
+}
+
+.class-1{
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+	border: solid red;
+	border-width: 5px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.class-2{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: solid red;
+	border-width: 3px 7px 7px 4px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.class-3{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	border: 7px solid red;
+	margin: 10px;
+	padding: 10px;
+}
+
+.class-4{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border: solid red;
+	margin: 10px;
+	padding: 10px;
+}
+
+.class-12{
+	background-color: red;
+}
+
+/*#id-2{*/
+.class-14{
+	background-color: pink;
+}
+
+ul:nth-child(2n){
+	color: blue;
+}
+
+.class-15 li:nth-child(2n){
+	color: red;
+}
+
+
+#id10 ~li{
+	background-color: yellow;
+}
+
+[name*="w"]{
+	border: dotted red;
+}
+
+li:hover{
+	color: #57f276;
+}
+
+ul:last-of-type{
+	color: green;
+}
+
+
+.class-17 li:first-child{
+	font-size: 25px;
+}
+
+.class-18 li:nth-child(even):before   {
+	content: ">"
+}
