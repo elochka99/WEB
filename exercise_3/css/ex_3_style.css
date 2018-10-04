@@ -89,3 +89,23 @@ ul:last-of-type{
 .class-18 li:nth-child(even):before   {
 	content: ">"
 }
+
+#id-25{
+	width: 250px;
+	height: 250px;
+}
+
+#id-26{
+	width: 200px;
+	height: 200px;
+}
+
+#id-27{
+	width: 150px;
+	height: 150px;
+}
+
+#id-28{
+	width: 100px;
+	height: 100px;
+}
