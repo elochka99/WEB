@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+header {
+  background-image: url(../img/2-layers.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.head_content {
+  justify-content: space-around;
+  margin: 129px 0 118px 0;
+  width: inherit;
+  align-items: flex-start;
+}
+
+.header_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 331px;
+  text-align: center;
+  margin-top: 43px;
+}
+
+.header_2 {
+  display: flex;
+  width: 377px;
+}
+
+.logo {
+  width: 276px;
+  height: 109px;
+  margin: 0 auto 55px;
+}
+
+@font-face {
+  font-family: "Catamaran";
+  src: url("../fonts/Catamaran-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Catamaran-Medium";
+  src: url("../fonts/Catamaran-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Catamaran-Black";
+  src: url("../fonts/Catamaran-Black.ttf");
+}
+
+@font-face {
+  font-family: "Catamaran-Lite";
+  src: url("../fonts/Catamaran-Light.ttf");
+}
+
+.h1_text {
+  width: 339px;
+  /* height: 88px; */
+  color: #333333;
+  font-family: "Catamaran-Medium", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: 3.6px;
+}
+
+.register_form {
+  width: 377px;
+  height: 422px;
+  box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
+  background-color: #333333;
+  opacity: 0.9;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+.button {
+  padding: 11px 63px 11px 62.8px;
+  font-family: "Catamaran-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 1.8px;
+  border: 0px;
+}
+
+.button1 {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.button2 {
+  background-color: #ffffff;
+  opacity: 0.7;
+  color: #333333;
+}
+
+.inputs {
+  padding: 14px;
+}
+.input {
+  /* width: 347px; */
+  background-color: #ffffff;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  color: #333333;
+  font-family: "Catamaran", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 1.8px;
+}
+
+label {
+  display: block;
+  color: #ffffff;
+  font-family: "Catamaran", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+  height: 40px;
+  margin: 0 30px 8px 0;
+}
+
+.reg_button {
+  background-color: #ff6600;
+  height: 40px;
+  width: 100%;
+  color: #333333;
+  font-family: "Catamaran-Black", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 3px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+
+/* ---------------------------------main-------------------------------- */
+
+main {
+  padding-bottom: 126px;
+}
+.main_content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.h1 {
+  color: #00a8b2;
+  font-family: "Catamaran-Black", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 3px;
+  margin: 72px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.h2 {
+  max-width: 800px;
+  color: #333333;
+  font-family: "Catamaran", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+  margin: 17px 0 0 0;
+  align-self: center;
+  display: flex;
+}
+
+.h3 {
+  color: #00a8b2;
+  font-family: "Catamaran-Black", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 3px;
+  margin: 55px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.part2 {
+  margin: 49px 0 74px 0;
+  text-align: center;
+}
+
+.th1 {
+  line-height: 36px;
+  color: #00a8b2;
+  font-family: "Catamaran-Black", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+  margin: 10px 0 10px 0;
+}
+
+.t1 {
+  color: #333333;
+  font-size: 16px;
+  line-height: 36px;
+  font-family: "Catamaran-Light", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+}
+
+.text_box {
+  width: 255px;
+  height: 100px;
+  justify-content: center;
+}
+
+.image {
+  width: 77px;
+  height: 77px;
+  margin: 0 auto;
+}
+
+.txt1 {
+  width: 265px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 10px 5px;
+}
+
+/* -----------------------------footer-------------------------------- */
+
+footer {
+  background-color: #333333;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer_content {
+  margin: 28px 70px 28px 54px;
+}
+
+.contact {
+  width: 242px;
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+  color: #ffffff;
+  font-family: Catamaran;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 1.6px;
+  position: relative;
+}
+
+.pol:before,
+.pol:after {
+  content: url(../img/Asset_14_copy.png);
+  position: absolute;
+  left: 0px;
+  top: -3px;
+}
+
+.pol:after {
+  left: 190px;
+}
+
+@media (min-width: 320px) {
+  .wrap {
+    width: 300px;
+  }
+  .h1_text {
+    width: 330px;
+    margin-bottom: 50px;
+  }
+  .register_form {
+    width: 297px;
+    min-height: 422px;
+  }
+  .button {
+    padding: 11px 43px 11px 42.8px;
+  }
+  .h1 {
+    text-align: center;
+  }
+  .footer_content {
+    width: 100%;
+    margin: 28px 70px 28px 34px;
+  }
+  .footer_logo {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrap {
+    width: 740px;
+  }
+  .h1_text {
+    width: 339px;
+  }
+  .h2 {
+    margin: 17px 0 0 15px;
+  }
+  .button {
+    padding: 11px 63px 11px 62.8px;
+  }
+  .footer_logo {
+    margin: 0;
+  }
+  .contact {
+    left: 40px;
+  }
+  .register_form {
+    width: 377px;
+    height: 422px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrap {
+    width: 940px;
+  }
+  .footer_logo {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wrap {
+    width: 1280px;
+  }
+  .footer_logo {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  .wrap {
+    width: 1280px;
+  }
+  .footer_logo {
+    margin: 0;
+  }
+}
