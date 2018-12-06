@@ -309,6 +309,10 @@ footer {
   left: 190px;
 }
 
+.mail{
+  color: #ffffff;
+  text-decoration: none;
+}
 @media (min-width: 320px) {
   .wrap {
     width: 300px;
