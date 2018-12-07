@@ -92,7 +92,6 @@ header {
 
 .h1_text {
   width: 339px;
-  /* height: 88px; */
   color: #333333;
   font-family: "Catamaran-Medium", sans-serif;
   font-size: 36px;
@@ -101,46 +100,61 @@ header {
   letter-spacing: 3.6px;
 }
 
-.register_form {
+.reg_form {
   width: 377px;
-  height: 422px;
+  /* height: 422px; */
   box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
   background-color: #333333;
   opacity: 0.9;
 }
 
-.buttons {
+.reg_form > input {
+  display: none;
+}
+.reg_form > div {
+  display: none;
+}
+
+.reg_form > input:checked + label {
+  color: #ffffff;
+  background: #333333;
+  opacity: 1;
+}
+
+#block-1:checked ~ #inputs-1,
+#block-2:checked ~ #inputs-2 {
   display: flex;
-  flex-direction: row;
-  margin-bottom: 8px;
+  flex-direction: column;
+}
+ 
+.inp-1, .inp-2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 356px;
+  padding: 14px;
+}
+.inp-2{
+  justify-content: space-evenly;
 }
 
 .button {
-  padding: 11px 63px 11px 62.8px;
+  padding: 11px 61px 11px 62.8px;
   font-family: "Catamaran-Medium", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 1.8px;
   border: 0px;
-}
-
-.button1 {
-  background-color: #333333;
-  color: #ffffff;
-}
-
-.button2 {
+  color: #333333;
   background-color: #ffffff;
   opacity: 0.7;
-  color: #333333;
+  display: inline-flex;
+  cursor: pointer;
+  margin-bottom: 8px;
 }
 
-.inputs {
-  padding: 14px;
-}
 .input {
-  /* width: 347px; */
   background-color: #ffffff;
   width: 100%;
   height: 40px;
@@ -154,7 +168,7 @@ header {
   letter-spacing: 1.8px;
 }
 
-label {
+.label_text {
   display: block;
   color: #ffffff;
   font-family: "Catamaran", sans-serif;
@@ -178,6 +192,7 @@ label {
   letter-spacing: 3px;
   border: 0px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 /* ---------------------------------main-------------------------------- */
@@ -285,8 +300,6 @@ footer {
 
 .contact {
   width: 242px;
-  /* display: flex;
-  flex-direction: column; */
   text-align: center;
   color: #ffffff;
   font-family: Catamaran;
@@ -321,12 +334,11 @@ footer {
     width: 330px;
     margin-bottom: 50px;
   }
-  .register_form {
+  .reg_form {
     width: 297px;
-    min-height: 422px;
   }
   .button {
-    padding: 11px 43px 11px 42.8px;
+    padding: 11px 41px 11px 42.81px;
   }
   .h1 {
     text-align: center;
@@ -351,7 +363,7 @@ footer {
     margin: 17px 0 0 15px;
   }
   .button {
-    padding: 11px 63px 11px 62.8px;
+    padding: 11px 61px 11px 62.8px;
   }
   .footer_logo {
     margin: 0;
@@ -359,9 +371,8 @@ footer {
   .contact {
     left: 40px;
   }
-  .register_form {
+  .reg_form {
     width: 377px;
-    height: 422px;
   }
 }
 
